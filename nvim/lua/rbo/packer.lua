@@ -40,4 +40,8 @@ return require('packer').startup(function(use)
     use 'nyoom-engineering/oxocarbon.nvim'
     use 'rktjmp/lush.nvim'
     use 'EdenEast/nightfox.nvim'
+    use {
+        'nvim-lualine/lualine.nvim',
+        requires = { 'kyazdani42/nvim-web-devicons', opt = true }
+    }
 end)
