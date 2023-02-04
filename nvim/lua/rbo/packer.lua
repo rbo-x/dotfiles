@@ -11,13 +11,6 @@ return require('packer').startup(function(use)
 	use 'ThePrimeagen/harpoon'
 	use 'mbbill/undotree'
 	use 'tpope/vim-fugitive'
-    use({
-    'rose-pine/neovim',
-    as = 'rose-pine',
-    config = function()
-        vim.cmd('colorscheme rose-pine')
-    end
-})
 	use {
 		'VonHeikemen/lsp-zero.nvim',
 		requires = {
@@ -36,12 +29,24 @@ return require('packer').startup(function(use)
 			{'rafamadriz/friendly-snippets'},
 		}
 	}
-    use 'bluz71/vim-nightfly-colors'
-    use 'nyoom-engineering/oxocarbon.nvim'
-    use 'rktjmp/lush.nvim'
-    use 'EdenEast/nightfox.nvim'
     use {
         'nvim-lualine/lualine.nvim',
         requires = { 'kyazdani42/nvim-web-devicons', opt = true }
     }
+    use 'ellisonleao/gruvbox.nvim'
+    use {"akinsho/toggleterm.nvim", tag = '*', config = function()
+        require("toggleterm").setup()
+    end}
+    use {
+        'nvim-tree/nvim-tree.lua',
+        requires = {
+            'nvim-tree/nvim-web-devicons', -- optional, for file icons
+        },
+        tag = 'nightly' -- optional, updated every week. (see issue #1193)
+    }
+    use 'EdenEast/nightfox.nvim'
+    use 'marko-cerovac/material.nvim'
+    use 'aktersnurra/no-clown-fiesta.nvim'
+    use 'navarasu/onedark.nvim'
+    use 'rebelot/kanagawa.nvim'
 end)

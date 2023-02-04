@@ -11,6 +11,6 @@ vim.opt.incsearch = false
 vim.opt.termguicolors = true
 vim.opt.scrolloff = 8
 vim.signcolumn = "yes"
-vim.opt.colorcolumn = "80"
+--vim.opt.colorcolumn = "80"
 vim.g.mapleader = " "
-vim.cmd.colorscheme("oxocarbon")
+vim.cmd.colorscheme("no-clown-fiesta")

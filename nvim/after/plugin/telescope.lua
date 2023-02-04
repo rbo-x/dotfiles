@@ -4,3 +4,7 @@ vim.keymap.set('n', '<C-p>', builtin.git_files, {})
 vim.keymap.set('n', '<leader>ps', function()
 	builtin.grep_string({search = vim.fn.input("Grep > ")});
 end)
+vim.keymap.set('n', '<leader>tg', builtin.live_grep, {})
+vim.keymap.set('n', '<leader>tr', builtin.lsp_references ,{})
+vim.keymap.set('n', '<leader>ti',  builtin.lsp_implementations,{})
+vim.keymap.set('n', '<leader>td', builtin.lsp_definitions,{})
