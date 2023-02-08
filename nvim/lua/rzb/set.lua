@@ -13,4 +13,4 @@ vim.opt.scrolloff = 8
 vim.signcolumn = "yes"
 --vim.opt.colorcolumn = "80"
 vim.g.mapleader = " "
-vim.cmd.colorscheme("no-clown-fiesta")
+vim.cmd.colorscheme("gruvbox")
