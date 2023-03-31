@@ -7,6 +7,6 @@ lsp.ensure_installed({
     'gopls',
     'clangd',
     'eslint',
-    'sumneko_lua',
 })
+
 lsp.setup()

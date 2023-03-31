@@ -33,7 +33,6 @@ return require('packer').startup(function(use)
         'nvim-lualine/lualine.nvim',
         requires = { 'kyazdani42/nvim-web-devicons', opt = true }
     }
-    use 'ellisonleao/gruvbox.nvim'
     use {"akinsho/toggleterm.nvim", tag = '*', config = function()
         require("toggleterm").setup()
     end}
@@ -44,9 +43,12 @@ return require('packer').startup(function(use)
         },
         tag = 'nightly' -- optional, updated every week. (see issue #1193)
     }
-    use 'EdenEast/nightfox.nvim'
-    use 'marko-cerovac/material.nvim'
-    use 'aktersnurra/no-clown-fiesta.nvim'
-    use 'navarasu/onedark.nvim'
-    use 'rebelot/kanagawa.nvim'
+    use 'NLKNguyen/papercolor-theme'
+    use 'luisiacc/gruvbox-baby'
+    use {
+        'uloco/bluloco.nvim',
+        requires = { 'rktjmp/lush.nvim' }
+    }
+    use 'savq/melange-nvim'
+    use 'jacoborus/tender.vim'
 end)
