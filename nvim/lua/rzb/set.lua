@@ -13,6 +13,6 @@ vim.opt.scrolloff = 8
 vim.signcolumn = "yes"
 vim.opt.colorcolumn = "80"
 vim.g.mapleader = " "
-vim.cmd('colorscheme tender')
+vim.cmd('colorscheme vscode')
 --vim.cmd('highlight Normal ctermbg=NONE guibg=NONE')
 

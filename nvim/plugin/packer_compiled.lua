@@ -79,11 +79,6 @@ _G.packer_plugins = {
     path = "/home/rbo/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
-  ["bluloco.nvim"] = {
-    loaded = true,
-    path = "/home/rbo/.local/share/nvim/site/pack/packer/start/bluloco.nvim",
-    url = "https://github.com/uloco/bluloco.nvim"
-  },
   ["cmp-buffer"] = {
     loaded = true,
     path = "/home/rbo/.local/share/nvim/site/pack/packer/start/cmp-buffer",
@@ -114,15 +109,25 @@ _G.packer_plugins = {
     path = "/home/rbo/.local/share/nvim/site/pack/packer/start/friendly-snippets",
     url = "https://github.com/rafamadriz/friendly-snippets"
   },
-  ["gruvbox-baby"] = {
+  ["gruvbox.nvim"] = {
     loaded = true,
-    path = "/home/rbo/.local/share/nvim/site/pack/packer/start/gruvbox-baby",
-    url = "https://github.com/luisiacc/gruvbox-baby"
+    path = "/home/rbo/.local/share/nvim/site/pack/packer/start/gruvbox.nvim",
+    url = "https://github.com/ellisonleao/gruvbox.nvim"
   },
   harpoon = {
     loaded = true,
     path = "/home/rbo/.local/share/nvim/site/pack/packer/start/harpoon",
     url = "https://github.com/ThePrimeagen/harpoon"
+  },
+  indentLine = {
+    loaded = true,
+    path = "/home/rbo/.local/share/nvim/site/pack/packer/start/indentLine",
+    url = "https://github.com/Yggdroot/indentLine"
+  },
+  ["jellybeans-nvim"] = {
+    loaded = true,
+    path = "/home/rbo/.local/share/nvim/site/pack/packer/start/jellybeans-nvim",
+    url = "https://github.com/metalelf0/jellybeans-nvim"
   },
   ["lsp-zero.nvim"] = {
     loaded = true,
@@ -185,11 +190,6 @@ _G.packer_plugins = {
     path = "/home/rbo/.local/share/nvim/site/pack/packer/start/packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
   },
-  ["papercolor-theme"] = {
-    loaded = true,
-    path = "/home/rbo/.local/share/nvim/site/pack/packer/start/papercolor-theme",
-    url = "https://github.com/NLKNguyen/papercolor-theme"
-  },
   playground = {
     loaded = true,
     path = "/home/rbo/.local/share/nvim/site/pack/packer/start/playground",
@@ -225,6 +225,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/rbo/.local/share/nvim/site/pack/packer/start/vim-fugitive",
     url = "https://github.com/tpope/vim-fugitive"
+  },
+  ["vscode.nvim"] = {
+    loaded = true,
+    path = "/home/rbo/.local/share/nvim/site/pack/packer/start/vscode.nvim",
+    url = "https://github.com/Mofiqul/vscode.nvim"
   }
 }
 

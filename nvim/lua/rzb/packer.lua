@@ -43,12 +43,11 @@ return require('packer').startup(function(use)
         },
         tag = 'nightly' -- optional, updated every week. (see issue #1193)
     }
-    use 'NLKNguyen/papercolor-theme'
-    use 'luisiacc/gruvbox-baby'
-    use {
-        'uloco/bluloco.nvim',
-        requires = { 'rktjmp/lush.nvim' }
-    }
     use 'savq/melange-nvim'
     use 'jacoborus/tender.vim'
+    use 'ellisonleao/gruvbox.nvim'
+    use 'rktjmp/lush.nvim'
+    use 'metalelf0/jellybeans-nvim'
+    use 'Yggdroot/indentLine'
+    use 'Mofiqul/vscode.nvim'
 end)
